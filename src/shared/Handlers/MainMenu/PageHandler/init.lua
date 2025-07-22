@@ -1,5 +1,7 @@
 local PageHandler = {}
 
+-- inits
+local CreationHandler = require(script.CreationHandler)
 local MainMenu = require(game.ReplicatedStorage.Handlers.MainMenu)
 
 local board = workspace.MainMenu.DetectiveBoard

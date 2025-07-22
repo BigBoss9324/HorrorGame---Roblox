@@ -3,9 +3,9 @@ local MainMenu = {}
 local ButtonHandler = require(script.ButtonHandler)
 
 local camera = game.Workspace.Camera
-local MainCamera = game.Workspace.MainMenu.Cameras.MainCamera
-local PlayCamera = game.Workspace.MainMenu.Cameras.PlayCamera
-local CreditsCamera = game.Workspace.MainMenu.Cameras.CreditsCamera
+local MainCamera = game.Workspace.MainMenu.Cameras:WaitForChild("MainCamera")
+local PlayCamera = game.Workspace.MainMenu.Cameras:WaitForChild("PlayCamera")
+local CreditsCamera = game.Workspace.MainMenu.Cameras:WaitForChild("CreditsCamera")
 local plr = game.Players.LocalPlayer
 
 -- Tween --
