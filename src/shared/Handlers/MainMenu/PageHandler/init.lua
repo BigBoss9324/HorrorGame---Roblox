@@ -2,7 +2,7 @@ local PageHandler = {}
 
 local MainMenu = require(game.ReplicatedStorage.Handlers.MainMenu)
 
-board = workspace.MainMenu.DetectiveBoard
+local board = workspace.MainMenu.DetectiveBoard
 local GUI = board.PlayGui
 local PlayFrame = GUI.PlayFrame
 local pageLayout = PlayFrame.UIPageLayout
